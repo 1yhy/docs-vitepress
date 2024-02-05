@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.c3fd347f.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"uniapp/index.md","filePath":"uniapp/index.md","lastUpdated":1707147609000}'),n={name:"uniapp/index.md"};function p(r,i,o,s,d,c){return t(),a("div")}const f=e(n,[["render",p]]);export{m as __pageData,f as default};

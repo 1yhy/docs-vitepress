@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.c3fd347f.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"flutter/index.md","filePath":"flutter/index.md","lastUpdated":1707147609000}'),r={name:"flutter/index.md"};function n(o,s,d,c,i,p){return t(),a("div")}const _=e(r,[["render",n]]);export{l as __pageData,_ as default};
