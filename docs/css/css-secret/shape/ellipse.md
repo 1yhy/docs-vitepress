@@ -23,7 +23,7 @@ border-radius: 50%;
 }
 </style>
 ```
-:::
+
 
 ## 半椭圆
 ```CSS
@@ -57,7 +57,7 @@ border-radius: 100% 0 0 100% / 50%;
 }
 </style>
 ```
-:::
+
 
 ## 四分之一椭圆
 ```CSS
@@ -79,4 +79,3 @@ border-radius: 100% 0 0 0;
 }
 </style>
 ```
-:::

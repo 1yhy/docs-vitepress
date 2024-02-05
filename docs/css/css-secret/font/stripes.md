@@ -44,4 +44,3 @@ pre {
 code { font: inherit }
 </style>
 ```
-:::

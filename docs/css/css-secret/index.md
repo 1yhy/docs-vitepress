@@ -5,11 +5,7 @@
 - [在线演示](http://play.csssecrets.io/)：http://play.csssecrets.io/
 
 ## CSS标准制定流程
-1. 编辑草案（ED）
-2. 首个公开工作草案（FPWD）
-3. 工作草案（WD）
-4. 提名推荐草案（CR）
-5. 正式推荐规范（REC）
+![制定流程](/assets/img/css-secret/workflow.svg)
 
 ## 浏览器前缀
 - -webkit-：Chrome、Safari、iOS Safari、Android、BlackBerry、Opera Mobile

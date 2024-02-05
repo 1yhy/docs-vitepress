@@ -27,7 +27,6 @@ background: linear-gradient(45deg, transparent 15px, #a5d8ff 0);
 }
 </style>
 ```
-:::
 
 ## 切底部两个角
 ```css
@@ -60,7 +59,7 @@ background-repeat: no-repeat;
 }
 </style>
 ```
-:::
+
 
 ## 切四个角
 ```css
@@ -97,7 +96,7 @@ background-repeat: no-repeat;
 }
 </style>
 ```
-:::
+
 
 ## 弧形切角
 ```css
@@ -134,7 +133,7 @@ background-repeat: no-repeat;
 }
 </style>
 ```
-:::
+
 
 ## 内联svg和border-image方案
 
@@ -169,7 +168,7 @@ background-clip: padding-box;
 }
 </style>
 ```
-:::
+
 
 ## 裁切路径
 ```css
@@ -198,4 +197,3 @@ clip-path: polygon(
 }
 </style>
 ```
-:::

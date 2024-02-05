@@ -35,7 +35,7 @@ background-position: right 20px bottom 10px;
 }
 </style>
 ```
-:::
+
 
 ## **使用`background-origin`方案**
 ```CSS
@@ -68,7 +68,7 @@ background-origin: content-box;
 }
 </style>
 ```
-:::
+
 
 - 这是因为**每个元素身上都有三个矩形框，`border-box`(外框矩形框)、`padding-box`(内边距外沿框)和`content-box`(内容区的外沿框**),**`background-origin`默认值是`padding-box`**,所以如果不设置`background-origin`，那么`background-position`的值就是相对于`padding-box`的，而不是`content-box`的
 
@@ -99,4 +99,3 @@ background-position: calc(100% - 20px) calc(100% - 20px);
 }
 </style>
 ```
-:::

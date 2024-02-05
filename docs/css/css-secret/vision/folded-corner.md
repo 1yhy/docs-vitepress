@@ -29,7 +29,7 @@ background:
 }
 </style>
 ```
-:::
+
 
 ## 其他角度折角
 
@@ -65,7 +65,7 @@ background:
 }
 </style>
 ```
-:::
+
 
 ```scss
 @mixin folded-corner($background, $size, $angle: 30deg) {

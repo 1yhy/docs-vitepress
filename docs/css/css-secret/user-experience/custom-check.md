@@ -69,7 +69,6 @@ input.checkbox2 + label::before {
 }
 </style>
 ```
-:::
 
 
 ## 开关式按钮
@@ -140,4 +139,4 @@ input[type="checkbox"]:active + label {
 
 </style>
 ```
-:::
+

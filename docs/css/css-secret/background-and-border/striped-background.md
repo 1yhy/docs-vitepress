@@ -27,7 +27,7 @@ background: linear-gradient(var(--demo-yellow) 50%, var(--demo-green) 0);
 }
 </style>
 ```
-:::
+
 
 - **使用`background-size`控制条纹高度**
 ```CSS
@@ -52,7 +52,7 @@ background-size: 100% 30px; // [!code ++]
 }
 </style>
 ```
-:::
+
 
 - **三种颜色条纹**
 ```CSS{0}
@@ -76,7 +76,7 @@ background-size: 100% 30px;
 }
 </style>
 ```
-:::
+
 
 ## **垂直条纹**
 ```CSS
@@ -101,7 +101,7 @@ background-size: 30px 100%;
 }
 </style>
 ```
-:::
+
 
 ## **斜向条纹**
 ::: tip
@@ -131,7 +131,7 @@ background-size: 42.426406871px 42.426406871px;
 }
 </style>
 ```
-:::
+
 
 - 使用`repeating-linear-gradient`
 ```CSS
@@ -153,7 +153,7 @@ background: repeating-linear-gradient(45deg, var(--demo-yellow), var(--demo-yell
 }
 </style>
 ```
-:::
+
 
 ## **同色系条纹**
 
@@ -179,4 +179,3 @@ background-image: repeating-linear-gradient(45deg, hsla(0, 0%, 100%, .1), hsla(0
 }
 </style>
 ```
-:::

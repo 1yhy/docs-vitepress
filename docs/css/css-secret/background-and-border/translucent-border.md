@@ -32,7 +32,7 @@ background: white;
 }
 </style>
 ```
-:::
+
 
 
 **如果要实现半透明的背景边框，需要把background-clip的值改为padding-box**
@@ -67,4 +67,3 @@ background-clip: padding-box; //[!code ++]
 }
 </style>
 ```
-:::

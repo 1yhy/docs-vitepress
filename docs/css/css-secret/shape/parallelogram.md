@@ -25,7 +25,7 @@ transform: skew(-45deg);
 }
 </style>
 ```
-:::
+
 
 
 ## 平行四边形背景和文字
@@ -77,7 +77,7 @@ transform: skew(-45deg);
 }
 </style>
 ```
-:::
+
 
 2. 使用伪元素
 ```CSS
@@ -121,4 +121,3 @@ transform: skew(-45deg);
 }
 </style>
 ```
-:::

@@ -40,7 +40,7 @@
 }
 </style>
 ```
-:::
+
 
 ## **通过`outline`实现**
 - 如果需要的不只是实线边框，可以使用outline
@@ -70,7 +70,7 @@
 }
 </style>
 ```
-:::
+
 
 ::: warning
 `outline`不一定会贴合元素的border-radius,如果元素有圆角，outline可能会是直角的，这是一个Bug,后续可能也会修复（这个问题可以在下下篇`边框内圆角`**使用`box-shadow`解决**）

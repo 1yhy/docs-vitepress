@@ -31,7 +31,7 @@
 }
 </style>
 ```
-:::
+
 
 ## 一层div实现
 ```CSS
@@ -66,7 +66,7 @@ background: linear-gradient(white, white) padding-box, url(/assets/img/css-secre
 }
 </style>
 ```
-:::
+
 
 ## 老式信封边框
 
@@ -93,7 +93,7 @@ background: linear-gradient(white, white) padding-box, repeating-linear-gradient
 }
 </style>
 ```
-:::
+
 
 #### **border-image实现老式信封边框**
 ```CSS{2，3}
@@ -119,7 +119,7 @@ border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0
 }
 </style>
 ```
-:::
+
 
 ## 蚂蚁行军动画
 
@@ -145,4 +145,3 @@ border-image: 16 repeating-linear-gradient(-45deg, red 0, red 1em, transparent 0
 }
 </style>
 ```
-:::

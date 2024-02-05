@@ -31,7 +31,6 @@
 }
 </style>
 ```
-:::
 
 ## **使用`box-shadow`和`outline`实现**
 ```CSS
@@ -63,7 +62,7 @@
 }
 </style>
 ```
-:::
+
 
 - 需要计算`box-shadow`的值
 ![一层Div实现内层圆角边框](/assets/img/css-secret/border-radius-inset-two.svg)
