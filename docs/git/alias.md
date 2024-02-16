@@ -25,6 +25,8 @@ alias gd='git diff'
 alias gds='git diff --staged'
 alias gl='git log'
 alias gbl='git blame'
+alias gm='git merge'
+alias gr='git remote'
 
 alias md='mkdir'
 alias rd='rmdir'
