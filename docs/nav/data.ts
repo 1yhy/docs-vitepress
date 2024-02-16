@@ -46,30 +46,19 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.json.cn',
       },
       {
-        icon: 'https://responsively.app/favicon.ico',
-        title: '响应式Web应用速览',
-        link: 'https://responsively.app/',
-      },
-      {
-        icon: 'https://frontend.devrank.cn/favicon.ico',
+        icon: 'https://p3-armor.byteimg.com/tos-cn-i-49unhts6dw/fd31bfa6cbc14800be44964c0480f7d6~tplv-49unhts6dw-image.image',
         title: '前端知识库_前端字母B分类_第1页_第1子页',
         desc: '前端知识库的一个分类页面',
         link: 'https://frontend.devrank.cn/traffic-catalogue/1-B',
       },
       {
-        icon: 'https://www.youtube.com/favicon.ico',
-        title: 'Programming & Web Development Crash Courses - Traversy Media',
-        desc: 'Traversy Media的编程和Web开发速成课程',
-        link: 'https://www.youtube.com/playlist?list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8',
-      },
-      {
-        icon: 'https://stateofjs.com/favicon.ico',
+        icon: 'https://survey.devographics.com/favicon.ico',
         title: 'State of JavaScript',
         desc: '关于JavaScript的年度调查报告',
         link: 'https://stateofjs.com/zh-Hans/',
       },
       {
-        icon: 'https://roadmap.sh/favicon.ico',
+        icon: 'https://roadmap.sh/manifest/icon16.png',
         title: 'Frontend Developer',
         desc: '前端开发者的学习路线图',
         link: 'https://roadmap.sh/frontend',
@@ -98,13 +87,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.appicon.co/',
       },
       {
-        icon: 'https://transform.tools/favicon.ico',
+        icon: 'https://transform.tools/static/favicon.png',
         title: 'TypeScript to plain JavaScript(以及其他多种转换)',
         desc: '在线转换TypeScript到JavaScript的工具',
         link: 'https://transform.tools/typescript-to-javascript',
       },
       {
-        icon: 'https://www.sojson.com/favicon.ico',
+        icon: 'https://cdn.sojson.com/sojson/favicon48.png',
         title: '图片转base64',
         desc: '在线将图片转换为base64的工具',
         link: 'https://www.sojson.com/image2base64.html',
@@ -134,7 +123,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.favicon.cc/?',
       },
       {
-        icon: 'https://icoconvert.com/favicon.ico',
+        icon: 'https://icoconvert.com/images/xx6.png',
         title: 'png/jpg转ico',
         desc: '在线将png/jpg转换为ico的工具',
         link: 'https://icoconvert.com/',
@@ -146,13 +135,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://qwerty.liumingye.cn/',
       },
       {
-        icon: 'https://www.deepl.com/favicon.ico',
+        icon: 'https://static.deepl.com/img/favicon/favicon_32.png',
         title: '文件内容翻译',
         desc: '在线翻译文件内容的工具',
         link: 'https://www.deepl.com/translator/files',
       },
       {
-        icon: 'https://www.typingclub.com/favicon.ico',
+        icon: 'https://static.typingclub.com/m/favicon.png',
         title: '打字练习',
         desc: '在线打字练习的工具',
         link: 'https://www.typingclub.com/sportal/program-3.game',
@@ -176,16 +165,19 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.youxiaohou.com/download.html',
       },
       {
+        icon: 'https://www.remove.bg/favicon-32x32.png?v=YAXaAv7pao',
         title: 'Upload Image – remove.bg',
         desc: '提供在线移除图片背景的工具',
         link: 'https://www.remove.bg/upload',
       },
-            {
-        title: '修改svg',
+      {
+        icon: 'https://jakearchibald.github.io/svgomg/imgs/icon.png',
+        title: 'svgomg',
         desc: '提供在线修改SVG的工具',
         link: 'https://jakearchibald.github.io/svgomg/',
       },
       {
+        icon: 'https://hotpot.ai/images/apple-touch-icon.png',
         title: '修改图标尺寸',
         desc: '提供在线修改图标尺寸的工具',
         link: 'https://hotpot.ai/icon-resizer?s=tools',
@@ -202,19 +194,19 @@ export const NAV_DATA: NavData[] = [
         link: 'https://loading.io/',
       },
       {
-        icon: '/assets/books.gif',
+        icon: 'https://icons8.com/preloaders/img/favicons/favicon-32x32.png',
         title: 'Loading, waiting,and spinning animations',
         desc: '提供各种加载动画的网站',
         link: 'https://icons8.com/preloaders/',
       },
       {
-        icon: 'https://cssfx.lovejade.cn/favicon.ico',
+        icon: 'https://cssfx.lovejade.cn/favicon-16x16.png',
         title: 'css动画代码',
         desc: '收集了各种CSS动画的网站',
         link: 'https://cssfx.lovejade.cn/',
       },
       {
-        icon: 'https://tsejx.github.io/favicon.ico',
+        icon: 'https://tsejx.github.io/css-guidebook/favicon.ico',
         title: 'CSS Guidebook',
         desc: 'CSS指南',
         link: 'https://tsejx.github.io/css-guidebook/',
@@ -226,19 +218,19 @@ export const NAV_DATA: NavData[] = [
         link: 'https://greensock.com/gsap/',
       },
       {
-        icon: 'https://postcss.org/assets/logo-3e39b0aa.svg',
+        icon: 'https://postcss.org/assets/logo-tq8kLoG9.svg',
         title: 'PostCSS',
         desc: '一个用 JavaScript 转换 CSS 的工具',
         link: 'https://postcss.org',
       },
       {
-        icon: 'https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg',
+        icon: 'https://sass-lang.com/icon.png',
         title: 'Sass',
         desc: '一个成熟，稳定，功能强大的专业级 CSS 扩展语言',
         link: 'https://sass-lang.com',
       },
       {
-        icon: 'https://www.tailwindcss.cn/apple-touch-icon.png',
+        icon: 'https://www.tailwindcss.cn/favicons/favicon-32x32.png?v=3',
         title: 'TailwindCSS 中文网',
         desc: '一个功能类优先的 CSS 框架',
         link: 'https://www.tailwindcss.cn',
@@ -272,11 +264,6 @@ export const NAV_DATA: NavData[] = [
   {
     title: 'AI 导航',
     items: [
-      {
-        icon: 'https://chat.zhile.io/favicon.ico',
-        title: 'chatgpt免翻墙',
-        link: 'https://chat.zhile.io/',
-      },
       {
         icon: 'https://poe.com/favicon.ico',
         title: 'poe',
@@ -313,19 +300,19 @@ export const NAV_DATA: NavData[] = [
     title: '设计导航',
     items: [
       {
-        icon: '/assets/books.gif',
+        icon: 'https://cdn.meigong8.com/2022/03/logo.png',
         title: '美工吧',
         desc: '日常笔记记录（零零散散啥都记系列）',
         link: 'https://www.meigong8.com/',
       },
       {
-        icon: 'https://excalidraw.com/favicon-32x32.png',
+        icon: 'https://static.zcool.cn/git_z/z/site/favicon.ico?version=1618914637608',
         title: '站酷',
         desc: '在线手绘画图白板',
         link: 'https://www.zcool.com.cn/',
       },
       {
-        icon: 'https://qwerty.fe-mm.com/apple-touch-icon.png',
+        icon: 'https://huaban.com/img/touch-icon-iphone-retina.png',
         title: '花瓣',
         desc: '为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件',
         link: 'https://huaban.com/',
@@ -337,31 +324,31 @@ export const NAV_DATA: NavData[] = [
         link: 'https://uiiiuiii.com/screen/',
       },
       {
-        icon: '/assets/books.gif',
+        icon: 'https://ui8.net/favicon-32x32.png',
         title: 'ui8设计稿',
         desc: '屏幕尺寸、设计师规范、网址导航',
         link: 'https://ui8.net/',
       },
       {
-        icon: '/assets/books.gif',
+        icon: 'https://www.gstatic.com/images/icons/material/apps/fonts/1x/catalog/v5/favicon.svg',
         title: '谷歌字体',
         desc: '屏幕尺寸、设计师规范、网址导航',
         link: 'https://fonts.google.com/',
       },
       {
-        icon: '/assets/books.gif',
+        icon: 'https://materialui.co/favicon.gif',
         title: '🎨 Material Design Colors, Color Palette | Material UI',
         desc: '屏幕尺寸、设计师规范、网址导航',
         link: 'https://materialui.co/colors',
       },
       {
-        icon: '/assets/books.gif',
+        icon: 'https://www.chinavid.com/wp-content/themes/Vstyle/assets/img/favicon.ico',
         title: 'Color Scheme Designer',
         desc: '在线配色器-在线色彩搭配和色彩配色方案',
         link: 'https://www.chinavid.com/color.html',
       },
       {
-        icon: '/assets/books.gif',
+        icon: 'https://unpkg.byted-static.com/byted/arco-config/1.0.12/assets/arco_palette.ico',
         title: 'palette',
         desc: '在线配色器-在线色彩搭配和色彩配色方案',
         link: 'https://arco.design/palette/list',
@@ -384,52 +371,49 @@ export const NAV_DATA: NavData[] = [
         link: 'https://iconpark.oceanengine.com/official',
       },
       {
-        icon: 'https://emoji.muan.co/appicon.png',
-        title: 'Emoji searcher',
-        desc: 'Emoji 表情大全',
-        link: '',
-      },
-      {
+        icon: 'https://unpkg.byted-static.com/byted/arco-config/1.0.12/assets/arco_iconbox.ico',
         title: 'Iconbox',
         desc: 'Arco Design的图标库',
         link: 'https://arco.design/iconbox/libs',
       },
       {
+        icon: 'https://undraw.co/favicon.ico',
         title: 'unDraw',
         desc: '提供免费插图的网站',
         link: 'https://undraw.co/illustrations',
       },
       {
+        icon: 'https://iconscout.com/favicon.ico',
         title: 'iconscout',
         desc: '提供各种图标和插图的网站',
         link: 'https://iconscout.com/',
       },
       {
+        icon: 'https://remixicon.com/favicon.ico',
         title: 'REMIX ICON',
         desc: '提供免费图标的网站',
         link: 'https://remixicon.com/',
       },
       {
+        icon: 'https://iconic.app/wp-content/themes/basis-iconic/icon.png',
         title: 'iconic',
         desc: '提供各种图标的网站',
         link: 'https://iconic.app/',
       },
       {
+        icon: 'https://icones.js.org/favicon.svg',
         title: '前端图标：icones',
         desc: '提供前端图标的网站',
         link: 'https://icones.js.org/',
       },
       {
+        icon: 'https://maxst.icons8.com/vue-static/landings/primary-landings/favs/icons8_fav_32%C3%9732.png',
         title: 'icons8',
         desc: '提供各种图标和插图的网站',
         link: 'https://icons8.com/',
       },
       {
-        title: '阿里图标库',
-        desc: '阿里巴巴提供的图标库',
-        link: 'https://www.iconfont.cn/',
-      },
-      {
+        icon: 'https://storytale.io/favicons/favicon-64.png',
         title: 'Storytale',
         desc: '提供插画的网站',
         link: 'https://storytale.io/',
@@ -440,13 +424,13 @@ export const NAV_DATA: NavData[] = [
     title: '后端导航',
     items: [
       {
-        icon: '/assets/books.gif',
+        icon: 'https://p9-armor.byteimg.com/tos-cn-i-49unhts6dw/08369b0024f04bbbb1b8662a9d7a34b2~tplv-49unhts6dw-image.image',
         title: '掘金后端知识库',
         desc: '后端知识库_后端字母B分类_第1页_第1子页',
         link: 'https://backend.devrank.cn/traffic-catalogue/1-A-1-41',
       },
       {
-        icon: 'https://opencv.apachecn.org/favicon.ico',
+        icon: 'https://opencv.apachecn.org/assets/images/favicon.png',
         title: 'opencv',
         desc: 'OpenCV的中文文档',
         link: 'https://opencv.apachecn.org/#/docs/4.0.0/1.1-tutorial_py_intro',
@@ -467,7 +451,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://rualc.com/',
       },
       {
-        icon: 'https://nlrx-wjc.github.io/favicon.ico',
+        icon: 'https://nlrx-wjc.github.io/Learn-Vue-Source-Code/logo.png',
         title: '逐行剖析 Vue.js 源码',
         desc: '逐行剖析Vue.js源码的教程',
         link: 'https://nlrx-wjc.github.io/Learn-Vue-Source-Code/',
@@ -478,7 +462,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.yuque.com/lizhiyao/dxydance/tpz004',
       },
       {
-        icon: 'https://tech.meituan.com/favicon.ico',
+        icon: 'https://awps-assets.meituan.net/mit/blog/v20190629/asset/icon/favicon.ico?v=Whistle&t=20181017-1r',
         title: '美团技术团队',
         desc: '美团技术团队的博客',
         link: 'https://tech.meituan.com/',
@@ -490,7 +474,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://developer.mozilla.org/zh-CN',
       },
       {
-        icon: 'https://static.runoob.com/images/favicon.ico',
+        icon: 'https://static.jyshare.com/images/favicon.ico',
         title: '菜鸟教程',
         desc: '学的不仅是技术，更是梦想！',
         link: 'https://www.runoob.com',
@@ -508,16 +492,10 @@ export const NAV_DATA: NavData[] = [
         link: 'https://www.foreverblog.cn/notice/16.html',
       },
       {
-        icon: 'https://www.travellings.cn/favicon.ico',
+        icon: 'https://www.travellings.cn/assets/img/mini-logo.svg',
         title: '开往',
         desc: 'Travellings的官方网站',
         link: 'https://www.travellings.cn/',
-      },
-      {
-        icon: '/assets/books.gif',
-        title: '前端日常笔记',
-        desc: '日常笔记记录（零零散散啥都记系列）',
-        link: 'https://github.com/maomao1996/daily-notes',
       }
     ],
   },
@@ -573,7 +551,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://antdv.com',
       },
       {
-        icon: 'https://fastly.jsdelivr.net/npm/@vant/assets/assets/books.gif',
+        icon: 'https://fastly.jsdelivr.net/npm/@vant/assets/logo.png',
         title: 'Vant',
         desc: '轻量、可定制的移动端 Vue 组件库',
         link: 'https://vant-ui.github.io/vant',
@@ -637,13 +615,13 @@ export const NAV_DATA: NavData[] = [
         link: 'https://echarts.apache.org/zh/index.html',
       },
       {
-        icon: 'https://antv.vision/icons/icon-72x72.png',
+        icon: 'https://mdn.alipayobjects.com/huamei_qa8qxu/afts/img/A*7svFR6wkPMoAAAAAAAAAAAAADmJ7AQ/original',
         title: 'AntV',
         desc: '蚂蚁集团全新一代数据可视化解决方案，致力于提供一套简单方便、专业可靠、无限可能的数据可视化最佳实践。',
         link: 'https://antv.vision/zh/',
       },
       {
-        icon: 'https://d3js.org/favicon.png',
+        icon: 'https://d3js.org/logo.png',
         title: 'D3.js',
         desc: '一个遵循 Web 标准用于可视化数据的 JavaScript 库',
         link: 'https://d3js.org',
@@ -779,7 +757,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://gallery.flutter.dev/#/',
       },
       {
-        icon: 'https://book.flutterchina.club/favicon.ico',
+        icon: 'https://book.flutterchina.club/assets/img/logo.png',
         title: '《Flutter实战·第二版》',
         desc: 'Flutter实战的在线书籍',
         link: 'https://book.flutterchina.club/chapter1/mobile_development_intro.html',
@@ -794,6 +772,12 @@ export const NAV_DATA: NavData[] = [
         title: 'CodeFun',
         desc: 'UI 设计稿智能生成前端源代码',
         link: 'https://code.fun/',
+      },
+      {
+        icon: 'https://www.youtube.com/favicon.ico',
+        title: 'Programming & Web Development Crash Courses - Traversy Media',
+        desc: 'Traversy Media的编程和Web开发速成课程',
+        link: 'https://www.youtube.com/playlist?list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8',
       },
     ],
   },
@@ -878,6 +862,7 @@ export const NAV_DATA: NavData[] = [
         link: 'https://docusaurus.io/zh-CN',
       },
       {
+        icon: 'https://mdit-plugins.github.io/logo.svg',
         title: 'Markdown It',
         desc: 'Markdown It',
         link: 'https://mdit-plugins.github.io/zh/demo.html',
@@ -978,6 +963,52 @@ export const NAV_DATA: NavData[] = [
         // desc: '',
         link: 'https://www.pixiv.net',
       },
+    ],
+  },
+  {
+    title: '实用软件',
+    items: [
+      {
+        icon: 'https://typoraio.cn/img/favicon-128.png',
+        title: 'Typora',
+        desc: 'Markdown 软件',
+        link: 'https://zhuanlan.zhihu.com/p/648915268',
+      },
+      {
+        icon: 'http://blog.bahraniapps.com/wp-content/uploads/2013/03/gifcamicon.png',
+        title: 'GifCam',
+        desc: '录制Gif',
+        link: 'https://blog.bahraniapps.com/gifcam/#download',
+      },
+      {
+        icon: 'https://www.bandisoft.com/img.front/bandizip_logo.png',
+        title: 'Bindizip',
+        desc: '解压软件',
+        link: 'https://www.bandisoft.com/bandizip/',
+      },
+      {
+        title: 'SwitchHosts',
+        desc: '修改hosts文件',
+        link: 'https://github.com/oldj/SwitchHosts/releases',
+      },
+      {
+        icon: 'https://responsively.app/favicon-32x32.png',
+        title: '响应式Web应用速览',
+        desc: '快速预览多个尺寸设备上的应用',
+        link: 'https://responsively.app/',
+      },
+      {
+        icon: 'https://ts1.cn.mm.bing.net/th?id=ODLS.9651b730-4dc9-4bbc-882b-b9ceed4cb01d&w=18&h=18&o=6&pid=1.2',
+        title: 'Xmind',
+        desc: 'Xmind思维导图',
+        link: 'https://xmind.cn/?ref=baidu',
+      },
+      {
+        icon: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADoAAAA6CAYAAAGWvHq+AAAAAXNSR0IArs4c6QAAAERlWElmTU0AKgAAAAgAAYdpAAQAAAABAAAAGgAAAAAAA6ABAAMAAAABAAEAAKACAAQAAAABAAAAOqADAAQAAAABAAAAOgAAAACjq6v0AAADQUlEQVRoBe1avW4UMRC2VyGCu3SIO/EKyQsEKSlyKwqKK6lzdTpaGjYNLV0QEkVS03FIFGgvRZCgoOVeARKJMgEBwuz4bhavz7Pe9e4lMnGkk+0Zj8fzzfhnJ2bM8seRP3z2R0D99WYkSfwek7xZC3u5lLmK03hHqniezEjJ9mRRBY/Y0d1b3a6LpiYyYD9iID4wAT8Yr6H9YDPanZwMBPyqDYtSaFRyEn/G+nLK3FEwPGKBqsaPIo6YIA1jBNqNcFrBEaF8+SZWm6yftfZ/Dwo0xiZ5uz3NOGQ/Pc6xwCBFx2EfD8vcJpi77l9c92hXK751do2zIE6/dlkAR197uGPhqBgU0HaeavuCELfq1HC6WC5q5PxCD3bO+QgFjOW3B/G6kRGIl4pAIWJVzfrSVnlQN23leh91+au8xRBSuUuqXx+lhYNQRVM/FFUe1M2HpN7r36Gpcq4PvG6WZpskwGXdGFVMlTq5TvVTBmRWVqON22/TqSKfV2c3QFHYfKntngwkHA3u2b13xyNsU2WynW4A78WnYefL9/Nzql+gBwT8RoBcp+E8bcOxbntvQ81BaUMAy8WvBN7yKS2JS24OpkNcnYP8JpsnfVS6WqcO8SuBNyhVXdN63R94OYtG0vz5/bcuFLUt7XXWur00PQJFyVbazS7csl5HcQ2lfAprk4/H8naPSp5spaPVG1zeeZFmKyspBTj76YQc+PFmOpUbQUW4rUpVOG0WuMKdj3saD5yz008/xuv/QXo1xyJUAgIBgYCA7wiQd17KMNuHMiWHdEhMQ13/PyPyq5ZU8pqStx6llKBv9GCobx6zzTd41IaQb/zgUd88FuY7R6D2hcGWPLMhi28Xmn49Ugk4Sn9YoxQyvtKDR331HDXv4FEKGTc6n8LbBNxxYQzYNWepUm58r+Cmh5ayvmmgRS2cLOXKBd/D5LOpN6RnM7pM3+6/j3ezV7wH2SvhjqlvU1rr5yg89rhzc21PT3ZXnSg8/vj64+JACLFbJlP3HG3JUAhN/pB6NlM24TIepKV//mKvsnxE4ckNyNQ11D10K4RmmRFVeJcZ2gvzObu/cyiGw6WsowVlBgKEdraeDw2sQAoIBAQ8RuAvwfbm33a5icQAAAAASUVORK5CYII=',
+        title: 'Snipaste',
+        desc: '截图工具',
+        link: 'https://snipaste.shriwei-3.cn/index.html',
+      }
     ],
   },
 ]
