@@ -181,6 +181,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: 'git常用命令',
       link: '/git/command',
     },
+    {
+      text: 'git命令别名',
+      link: '/git/alias',
+    },
   ],
   '/scrcpy/': [
     {

@@ -92,3 +92,9 @@ table {
 .dark::view-transition-old(root) {
   z-index: 9999;
 }
+
+.base-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}

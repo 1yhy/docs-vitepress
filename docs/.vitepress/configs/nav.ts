@@ -2,6 +2,7 @@ import type { DefaultTheme } from 'vitepress'
 
 export const nav: DefaultTheme.Config['nav'] = [
   { text: 'Home', link: '/' },
+  { text: '导航页', link: '/nav/' },
   {
     text: '前端', items: [
       { text: 'Uniapp', link: '/uniapp/app/start/create-app-project' },
@@ -23,7 +24,6 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'Linux', link: '/linux/start' },
       { text: 'Vscode', link: '/vscode/index' },
       { text: 'scrcpy', link: '/scrcpy/quick-start' },
-      { text: '前端导航', link: '/nav/' },
     ]
   }
 ]

@@ -1,49 +1,4 @@
-# git常用命令
-
-gitbash别名设置：
-```bash
-cd D:\soft\Git\etc\profile.d
-
-
-// 添加别名
-alias gs='git status'
-alias ga='git add .'
-alias gc='git commit -m'
-alias gch='git checkout'
-alias gcm='git checkout master'
-alias gpu='git push'
-alias gcl='git clone'
-alias gpl='git pull'
-alias gb='git branch'
-alias gbd='git branch -d'
-alias gcn='git config user.name yanghongyu'
-alias gce='git config user.email a319139806@163.com'
-
-alias md='mkdir'
-alias rd='rmdir'
-alias ..='cd ..'
-alias ...='cd ../..'
-
-alias nu='nrm use'
-alias nls='nrm ls'
-
-alias nv='nvm use'
-alias nvl='nvm ls'
-
-
-alias ni='npm install'
-alias nrd='npm run dev'
-alias nrs='npm run start'
-alias ns='npm start'
-
-alias pi='pnpm install'
-alias prd='pnpm run dev'
-alias prs='pnpm run start'
-
-alias yi='yarn install'
-alias yrd='yarn run dev'
-alias yrs='yarn run start'
-```
+# git 常用命令
 
 初始化
 
@@ -61,13 +16,13 @@ git config --global user.name 'your_name'
 git config --global user.email 'your_email@domain.com'
 ```
 
-显示config配置
+显示 config 配置
 
 ```
 git config --list --local(--global/--system)
 ```
 
-提交给git管理
+提交给 git 管理
 
 ```
 git add
@@ -154,13 +109,13 @@ git branch -D 分支名
 git branch -av
 ```
 
-修改最近一次commit的message
+修改最近一次 commit 的 message
 
 ```
 git commit -amend
 ```
 
-修改旧的commit的message(多人协作尽量避免操作)
+修改旧的 commit 的 message(多人协作尽量避免操作)
 
 ```
 git rebase -i 改变的commit的父亲hash值
@@ -170,7 +125,7 @@ git rebase -i 改变的commit的父亲hash值
 把要修改的commit前的pick改成r,保存
 ```
 
-把多个连续commit合并成一个
+把多个连续 commit 合并成一个
 
 ```
 git rebase -i 多个commit的父亲hash值
@@ -183,7 +138,7 @@ git rebase -i 多个commit的父亲hash值
 ！！不连续commmit可在编辑界面调整要合并的commit位置到父commit下合并就行
 ```
 
-比较暂存区和HEAD所含文件差异
+比较暂存区和 HEAD 所含文件差异
 
 ```
 git diff -cached
@@ -195,7 +150,7 @@ git diff -cached
 git diff (文件名)
 ```
 
-让暂存区恢复和HEAD一样
+让暂存区恢复和 HEAD 一样
 
 ```
 git reset HEAD <file>
@@ -207,7 +162,7 @@ git reset HEAD <file>
 git checkout -- <file>
 ```
 
-消除最近几次commit
+消除最近几次 commit
 
 ```
 git reset --hard 要回到的commit位置的hash值
@@ -226,7 +181,7 @@ git diff hash值 hash值 （文件名）
 git rm 文件名
 ```
 
-紧急事件暂停当前任务，暂存stage
+紧急事件暂停当前任务，暂存 stage
 
 ```
 git stash
