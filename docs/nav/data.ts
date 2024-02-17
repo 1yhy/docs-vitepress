@@ -446,6 +446,11 @@ export const NAV_DATA: NavData[] = [
         link: 'https://jefferyxzf.github.io/',
       },
       {
+        icon: 'https://notes.fe-mm.com/logo.png',
+        title: '茂茂',
+        link: 'https://notes.fe-mm.com/',
+      },
+      {
         icon: 'https://rualc.com/favicon.ico',
         title: '前端指南博客',
         link: 'https://rualc.com/',
@@ -1008,6 +1013,30 @@ export const NAV_DATA: NavData[] = [
         title: 'Snipaste',
         desc: '截图工具',
         link: 'https://snipaste.shriwei-3.cn/index.html',
+      },
+      {
+        icon: 'https://raw.githubusercontent.com/Molunerfinn/test/master/picgo/New%20LOGO-150.png',
+        title: 'PicGo',
+        desc: 'PicGo 图床工具',
+        link: 'https://molunerfinn.com/PicGo/',
+      },
+      {
+        icon: 'https://www.screentogif.com/logos/favicon.ico',
+        title: 'ScreenToGif',
+        desc: 'GIF 录制神器',
+        link: 'https://www.screentogif.com/',
+      },
+      {
+        icon: 'https://res.u-tools.cn/website/v4/logo.png',
+        title: 'utools',
+        desc: '新一代效率工具平台，自由组合插件应用，打造专属你的趁手工具集',
+        link: 'https://u.tools/',
+      },
+      {
+        icon: 'https://www.voidtools.com/favicon.ico',
+        title: 'Everything  ',
+        desc: 'Windows 平台最快的文件搜索软件',
+        link: 'https://www.voidtools.com/zh-cn/',
       }
     ],
   },

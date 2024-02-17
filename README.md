@@ -1,17 +1,13 @@
-# vitepress-nav-template
+<h1 align="center"> docs-vitepress</h1>
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/maomao1996/picture/main/vitepress-nav-template/home.webp" alt="home" />
-</p>
-<p align="center"> 基于 <b>VitePress</b> 的个人前端导航页面模板 </p>
-<p align='center'><a href="/guide.md">基础教程</a> | <a href="https://notes.fe-mm.com/">作者博客</a></p>
+<p align="center"> 基于<a href="https://notes.fe-mm.com/">茂茂</a>的<a href="https://github.com/maomao1996/vitepress-nav-template">VitePress模板</a>进行修改</p>
+<p align='center'><a href="/guide.md">基础教程</a> | <a href="https://www.yhy.gd.cn/">作者博客</a></p>
 
 ---
 
 ## 预览地址
 
-- <https://fe-nav.netlify.app/nav/>
-- <https://maomao1996.github.io/vitepress-nav-template/nav/>
+- <https://yhy-docs.vercel.app/>
 
 ## 功能
 
@@ -25,7 +21,3 @@
   - 3. 访问地址为 `https://<username>.github.io/<repository>/`
 - 支持 [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
 - 支持查看 vue 示例组件源码（使用 [vite-plugin-markdown-preview](https://github.com/jaskang/vite-plugin-markdown-preview)）
-
-## 说明
-
-前端导航模块由 [茂茂 | maomao](https://github.com/maomao1996) 开发，如有引用、借鉴的请保留版权声明：<https://github.com/maomao1996/vitepress-nav-template>

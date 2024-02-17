@@ -185,6 +185,14 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: 'git命令别名',
       link: '/git/alias',
     },
+    {
+      text: '修改GitHub的个人主页',
+      link: '/git/profile',
+    },
+    {
+      text: '修改GitHub的个人主页',
+      link: '/git/profile',
+    },
   ],
   '/scrcpy/': [
     {
@@ -263,5 +271,19 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: '其他',
       link: '/collect/other',
     }
+  ],
+  '/tools/': [
+    {
+      text: 'Typora集成PicGo图床工具',
+      link: '/tools/typora/index',
+    },
+    {
+      text: 'Chrome插件',
+      link: '/tools/chrome/index',
+    },
+    {
+      text: 'Vscode插件',
+      link: '/tools/vscode/index',
+    },
   ],
 }
