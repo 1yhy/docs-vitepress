@@ -27,7 +27,7 @@ export default defineConfig({
   themeConfig: {
     i18nRouting: false,
 
-    logo: '/assets/books.gif',
+    logo: '/logo.png',
 
     nav,
     sidebar,
@@ -52,6 +52,15 @@ export default defineConfig({
       prev: '上一篇',
       next: '下一篇',
     },
+
+    // search: {
+    //   provider: 'algolia',
+    //   options: {
+    //     appId: '...', // 你的 Application ID
+    //     apiKey: '...', // 你的Search API Key
+    //     indexName: 'chunge16vitepress' // 你的indexName
+    //   }
+    // }
   },
 
   vite: {

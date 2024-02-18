@@ -19,7 +19,7 @@ hero:
 features:
   - icon: 📖
     title: CSS
-    details: 整理《CSS揭秘》中常用CSS技巧<br />
+    details: 整理《CSS揭秘》中常用CSS写法<br />
     link: /css/css-secret/
     linkText: CSS揭秘
   - icon: 📘
@@ -35,7 +35,7 @@ features:
   - icon: 🧰
     title: 提效工具
     details: 工欲善其事，必先利其器<br />记录开发和日常使用中所用到的软件、插件、扩展等
-    link: /tools/
+    link: /tools/chrome/
     linkText: 提效工具
   - icon: 🐞
     title: 踩坑记录
@@ -44,7 +44,7 @@ features:
     linkText: 踩坑记录
   - icon: 💯
     title: 吾志所向，一往无前。
-    details: '<small class="bottom-small">一个想躺平的小开发</small>'
+    details: '<small class="bottom-small">正在路上...</small>'
     link: /
 ---
 

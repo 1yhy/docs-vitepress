@@ -19,9 +19,10 @@ export const nav: DefaultTheme.Config['nav'] = [
   },
   {
     text: '提效工具', items: [
-      { text: 'Typora', link: '/tools/typora/index' },
-      { text: '浏览器插件', link: '/tools/chrome/index' },
-      { text: 'Vscode插件', link: '/tools/vscode/index' }
+      { text: '实用软件', link: '/tools/soft' },
+      { text: '浏览器插件', link: '/tools/chrome/' },
+      { text: 'Vscode插件', link: '/tools/vscode/' },
+      { text: 'Typora配置图床', link: '/tools/typora/' }
     ]
   },
   {

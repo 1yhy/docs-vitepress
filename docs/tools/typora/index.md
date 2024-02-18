@@ -8,14 +8,17 @@
 
 ### Typora 配置 PicGo
 
-#### 选择图像 —— 选择上传服务 —— 选择 PicGo App —— 选择安装路径
+- 选择图像
+- 选择上传服务
+- 选择 PicGo App
+- 选择安装路径
 
 ![image-20240217152222885](https://yhyblog-2023-2-8.oss-cn-hangzhou.aliyuncs.com/md/2024/202402171554276.png)
 
 ### PicGo 配置阿里云图床
 
-#### 打开 PicGo，选择自己的图床进行配置，比如我使用的是阿里云图床，
-
+- 打开 PicGo
+- 选择自己的图床进行配置，比如我使用的是阿里云图床
 - 登录阿里云，选择头像下的**访问控制**
 
   ![image-20240217153054736](https://yhyblog-2023-2-8.oss-cn-hangzhou.aliyuncs.com/md/2024/202402171554899.png)

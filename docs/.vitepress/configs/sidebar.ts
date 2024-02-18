@@ -210,10 +210,6 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   ],
   '/vscode/': [
     {
-      text: 'vscode插件',
-      link: '/vscode/index',
-    },
-    {
       text: 'vscode插件开发-chatgpt插件',
       link: '/vscode/develope/chatgpt',
     },
@@ -250,40 +246,22 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
   //     link: '/sentry/links',
   //   },
   // ],
-  '/collect/': [
-    {
-      text: '设计',
-      link: '/collect/design',
-    },
-    {
-      text: '前端',
-      link: '/collect/front-end',
-    },
-    {
-      text: '后端',
-      link: '/collect/back-end',
-    },
-    {
-      text: '工具',
-      link: '/collect/tools',
-    },
-    {
-      text: '其他',
-      link: '/collect/other',
-    }
-  ],
   '/tools/': [
     {
-      text: 'Typora集成PicGo图床工具',
-      link: '/tools/typora/index',
+      text: '实用软件',
+      link: '/tools/soft',
     },
     {
       text: 'Chrome插件',
-      link: '/tools/chrome/index',
+      link: '/tools/chrome/',
     },
     {
       text: 'Vscode插件',
-      link: '/tools/vscode/index',
+      link: '/tools/vscode/',
     },
+    {
+      text: 'Typora集成PicGo图床工具',
+      link: '/tools/typora/',
+    }
   ],
 }
