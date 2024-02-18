@@ -11,9 +11,11 @@ import './styles/index.scss'
 
 let homePageStyle: HTMLStyleElement | undefined
 
-// 添加vercel分析
+// 添加vercel数据分析和性能分析
 import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
+injectSpeedInsights();
 inject()
 
 export default {
