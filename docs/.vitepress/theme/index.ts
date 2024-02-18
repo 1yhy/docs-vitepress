@@ -11,6 +11,11 @@ import './styles/index.scss'
 
 let homePageStyle: HTMLStyleElement | undefined
 
+// 添加vercel分析
+import { inject } from '@vercel/analytics';
+
+inject()
+
 export default {
   extends: DefaultTheme,
   Layout: () => {

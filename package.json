@@ -44,5 +44,8 @@
     "*.{js,jsx,tsx,vue,css,scss,less,md,json}": [
       "prettier --write"
     ]
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.2.0"
   }
 }
