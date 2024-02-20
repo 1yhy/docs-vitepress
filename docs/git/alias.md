@@ -47,7 +47,7 @@ alias nui='npm uninstall' # 卸载包
 alias nl='npm list' # 列出已安装的包
 
 # yarn
-alias yi='yarn add'
+alias yi='yarn install'
 alias yid='yarn add --dev'
 alias ys='yarn start'
 alias yd='yarn dev'
@@ -60,7 +60,7 @@ alias yui='yarn remove'
 alias yl='yarn list'
 
 # pnpm
-alias pi='pnpm add'
+alias pi='pnpm install'
 alias pid='pnpm add --save-dev'
 alias ps='pnpm start'
 alias pd='pnpm dev'

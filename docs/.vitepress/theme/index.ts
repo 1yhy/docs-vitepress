@@ -30,6 +30,11 @@ export default {
       props.class = frontmatter.value.layoutClass
     }
 
+    /**
+     * 相关插槽
+     * https://vitepress.dev/guide/extending-default-theme#layout-slots
+     * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/Layout.vue
+     */
     return h(MLayout, props)
   },
   enhanceApp({ app, router }: EnhanceAppContext) {
@@ -37,13 +42,14 @@ export default {
 
     app.component('MNavLinks', MNavLinks)
 
+    app.provide('DEV', process.env.NODE_ENV === 'development')
+
     if (typeof window !== 'undefined') {
       watch(
         () => router.route.data.relativePath,
         () =>
           updateHomePageStyle(
-            /* /vitepress-nav-template/ 是为了兼容 GitHub Pages */
-            location.pathname === '/' || location.pathname === '/vitepress-nav-template/',
+            location.pathname === '/',
           ),
         { immediate: true },
       )
