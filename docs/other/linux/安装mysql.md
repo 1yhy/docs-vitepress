@@ -2,15 +2,17 @@
 
 #### 一、下载地址：https://dev.mysql.com/downloads/mysql/5.7.html
 
-#### 二、mysql5.7安装包上传到linux服务器
-- linux服务器根目录下新建文件夹：
-1）soft文件夹，存放软件安装包
+#### 二、mysql5.7 安装包上传到 linux 服务器
 
-- 将下载好的mysql-5.7.36-linux-glibc2.12-x86_64.tar.gz上传至soft文件夹下：
+- linux 服务器根目录下新建文件夹：
+  1）soft 文件夹，存放软件安装包
 
+- 将下载好的 mysql-5.7.36-linux-glibc2.12-x86_64.tar.gz 上传至 soft 文件夹下：
 
-#### 三、检查系统是否安装过mysql
-检查系统是否安装过mysql,如果没有略过此步骤：如下图：
+#### 三、检查系统是否安装过 mysql
+
+检查系统是否安装过 mysql,如果没有略过此步骤：如下图：
+
 ```bash
 #检查系统中有无安装过mysql
 rpm -qa|grep mysql
@@ -21,7 +23,9 @@ rpm -qa|grep mysql
  whereis mysql
  find / -name mysql
 ```
-#### 四、卸载CentOS7系统自带mariadb
+
+#### 四、卸载 CentOS7 系统自带 mariadb
+
 ```bash
 #查看系统自带的Mariadb
 rpm -qa|grep mariadb
@@ -32,7 +36,9 @@ rpm -e --nodeps mariadb-libs-5.5.60-1.el7-5.x86_64
 #删除etc目录下的my.cnf ，一定要删掉，等下再重新建，之前我将就用这个文件，后面改配置各种不生效，因为lz此目录下没有my.cnf文件，没有执行可命令
 rm /etc/my.cnf
 ```
+
 **补充**
+
 - `MariaDB` 是一个开源的关系数据库管理系统，它是由 `MySQL` 的原始开发者之一，Monty Widenius，创建的，并且是作为 `MySQL` 的一个分支（fork）开始的。这个分支的目的是确保该项目保持完全开源，特别是在 Oracle 公司于 2010 年收购了 MySQL 后。
 
 在 CentOS 和其他一些 Linux 发行版中，`MariaDB` 被选为默认的 MySQL 实现，这意味着当你在这些系统上安装 "MySQL" 时，你实际上可能会得到 `MariaDB`。
@@ -49,9 +55,8 @@ rm /etc/my.cnf
 
 在 CentOS 7 中，当你使用 `yum` 安装 `mysql-server` 时，你实际上会得到 `MariaDB`。如果你已经熟悉 `MySQL`，那么使用 `MariaDB` 应该会非常直观，因为两者在使用和管理上非常相似。
 
+#### 五、检查有无安装过 mysql 用户组，没有的话创建
 
-
-#### 五、检查有无安装过mysql 用户组，没有的话创建
 ```bash
 #检查mysql 用户组是否存在
 cat /etc/group | grep mysql
@@ -64,8 +69,8 @@ groupadd mysql
 useradd -r -g mysql mysql
 ```
 
+#### 六、安装 mysql5.7 步骤
 
-#### 六、安装mysql5.7步骤
 ```bash
 #解压安装mysql安装包到/soft/目录下
 tar -zxvf mysql-5.7.36-linux-glibc2.12-x86_64.tar.gz -C  /soft
@@ -108,20 +113,23 @@ chmod -R 775 /etc/my.cnf
 
 ```
 
-##### 启动mysql 服务器
+##### 启动 mysql 服务器
+
 1）、查询服务
+
 ```bash
 ps -ef|grep mysql
 ps -ef|grep mysqld
 ```
 
 2）、启动服务
+
 ```bash
  /soft/mysql5.7/support-files/mysql.server start
 ```
 
+##### 添加软连接，并重启 mysql 服务
 
-##### 添加软连接，并重启mysql 服务
 ```bash
 #添加软连接
 ln -s /soft/mysql5.7/support-files/mysql.server /etc/init.d/mysql
@@ -164,7 +172,9 @@ firewall-cmd --zone=public --add-port=3306/tcp --permanent
 #配置立即生效
 firewall-cmd --reload
 ```
+
 ##### 数据库的操作
+
 ```bash
 （1）查看mysql是否启动：service mysqld status
 
@@ -176,5 +186,5 @@ firewall-cmd --reload
 
 （2）查看临时密码：grep password /var/log/mysqld.log
 ```
-至此，centos7安装mysql5.7完成，本客户端连接centos7中的mysql5.7服务端成功。
 
+至此，centos7 安装 mysql5.7 完成，本客户端连接 centos7 中的 mysql5.7 服务端成功。

@@ -1,6 +1,9 @@
-# scrcpy常用命令
-以下命令由Github Copilot自动生成，仅供参考。
-## 1. scrcpy常用命令
+# scrcpy 常用命令
+
+以下命令由 Github Copilot 自动生成，仅供参考。
+
+## 1. scrcpy 常用命令
+
 ```bash
 scrcpy -h # 查看帮助
 scrcpy -V # 查看版本
@@ -28,7 +31,8 @@ scrcpy --turn-screen-off # 关闭设备屏幕
 scrcpy --stay-awake # 保持设备唤醒
 ```
 
-## 2. adb常用命令
+## 2. adb 常用命令
+
 ```bash
 adb devices # 查看连接的设备
 adb usb # 通过USB连接
@@ -38,6 +42,7 @@ adb disconnect
 ```
 
 ## 3. 其他命令
+
 ```bash
 adb shell input keyevent 26 # 按下电源键
 adb shell input keyevent 82 # 按下菜单键

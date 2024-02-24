@@ -26,12 +26,19 @@ export const nav: DefaultTheme.Config['nav'] = [
     ]
   },
   {
+    text: '前端基建', items: [
+      { text: 'C2D2C系列', link: '/base/C2D2C/relative' },
+      { text: '监控系列', link: '/base/Monitor/relative' }
+    ]
+  },
+  {
     text: '其他',
     items: [
-      { text: 'Git', link: '/git/command' },
-      { text: 'Linux', link: '/linux/start' },
-      { text: 'Vscode', link: '/vscode/index' },
-      { text: 'scrcpy', link: '/scrcpy/quick-start' },
+      { text: 'Git', link: '/other/git/command' },
+      { text: 'Linux', link: '/other/linux/start' },
+      { text: 'Vscode', link: '/other/vscode/index' },
+      { text: 'cli', link: '/other/cli/alias' },
+      { text: 'scrcpy', link: '/other/scrcpy/quick-start' },
     ]
   }
 ]

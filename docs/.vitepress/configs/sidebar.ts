@@ -176,64 +176,62 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       link: '/flutter/app/common-issues',
     }
   ],
-  '/git/': [
+  '/other/git/': [
     {
       text: 'git常用命令',
-      link: '/git/command',
+      link: '/other/git/command',
     },
+    {
+      text: '修改GitHub的个人主页',
+      link: '/other/git/profile',
+    }
+  ],
+  '/other/cli/': [
     {
       text: 'git命令别名',
-      link: '/git/alias',
-    },
-    {
-      text: '修改GitHub的个人主页',
-      link: '/git/profile',
-    },
-    {
-      text: '修改GitHub的个人主页',
-      link: '/git/profile',
-    },
+      link: '/other/cli/alias',
+    }
   ],
-  '/scrcpy/': [
+  '/other/scrcpy/': [
     {
       text: '快速开始',
-      link: '/scrcpy/quick-start',
+      link: '/other/scrcpy/quick-start',
     },
     {
       text: '常用命令',
-      link: '/scrcpy/command',
+      link: '/other/scrcpy/command',
     },
     {
       text: '常见问题',
-      link: '/scrcpy/issues',
+      link: '/other/scrcpy/issues',
     }
   ],
-  '/vscode/': [
+  '/other/vscode/': [
     {
       text: 'vscode插件开发-chatgpt插件',
-      link: '/vscode/develope/chatgpt',
+      link: '/other/vscode/develope/chatgpt',
     },
   ],
-  '/linux/': [
+  '/other/linux/': [
     {
       text: '基础知识',
-      link: '/linux/start',
+      link: '/other/linux/start',
     },
     {
       text: '常用命令',
-      link: '/linux/commond',
+      link: '/other/linux/commond',
     },
     {
       text: '安装mysql',
-      link: '/linux/安装mysql',
+      link: '/other/linux/安装mysql',
     },
     {
       text: '安装nginx',
-      link: '/linux/安装nginx',
+      link: '/other/linux/安装nginx',
     },
     {
       text: 'docker安装jenkins',
-      link: '/linux/docker安装jenkins',
+      link: '/other/linux/docker安装jenkins',
     },
   ],
   // '/sentry/': [
@@ -257,7 +255,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     },
     {
       text: 'Vscode插件',
-      link: '/tools/vscode/',
+      link: '/tools/other/vscode/',
     },
     {
       text: 'Typora集成PicGo图床工具',

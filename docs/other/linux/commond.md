@@ -1,27 +1,33 @@
 ## 常用命令
 
-1. 要获取所有已加载的服务unit单元的列表，请输入：
+1. 要获取所有已加载的服务 unit 单元的列表，请输入：
+
 ```bash
 sudo systemctl list-units --type service
 ```
-- 默认情况下，该命令仅列出已加载的活动unit。要同时查看已加载但无效的unit，请传递以下--all选项：
+
+- 默认情况下，该命令仅列出已加载的活动 unit。要同时查看已加载但无效的 unit，请传递以下--all 选项：
+
 ```bash
 sudo systemctl list-units --type service --all
 ```
-- 如果要查看所有已安装的unit文件，而不仅仅是加载的unit文件
+
+- 如果要查看所有已安装的 unit 文件，而不仅仅是加载的 unit 文件
+
 ```bash
 sudo systemctl list-unit-files
 ```
 
 2. 显示服务状态
+
 ```bash
 sudo systemctl status <service_name>.service  #.service可省略
 ```
 
-
 ### 删除文件夹（及其包含的所有文件和子文件夹），你可以使用 `rm` 命令配合 `-r`（或 `-rf`）选项。这里的 `-r` 代表递归删除。
 
 1. **删除文件夹及其内容**：
+
    ```bash
    rm -r /path/to/directory
    ```
@@ -31,14 +37,15 @@ sudo systemctl status <service_name>.service  #.service可省略
    rm -rf /path/to/directory
    ```
 
-
 ### 查看对应文件夹
+
 ```bash
  whereis mysql
  find / -name mysql
 ```
 
 ### 检查是否安装
+
 ```
 rpm -qa|grep mysql
 ```

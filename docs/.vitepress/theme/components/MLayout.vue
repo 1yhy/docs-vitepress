@@ -2,6 +2,7 @@
 import { useData } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import MNavVisitor from './MNavVisitor.vue'
+import MComments from './MComments.vue'
 import { nextTick, provide, h } from 'vue'
 
 const { Layout } = DefaultTheme
@@ -46,6 +47,9 @@ provide('toggle-appearance', async ({ clientX: x, clientY: y }: MouseEvent) => {
   <Layout v-bind="$attrs">
     <template #nav-bar-title-after>
       <MNavVisitor />
+    </template>
+    <template #doc-after>
+      <MComments />
     </template>
   </Layout>
 </template>
