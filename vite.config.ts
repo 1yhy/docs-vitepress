@@ -13,14 +13,14 @@ export default defineConfig({
     release: {
       name: '1.0.0',
       uploadLegacySourcemaps: {
-        paths: ["dist"],
+        paths: ["./dist"],
         ignore: ["./node_modules"],
       },
     },
     sourcemaps: {
-      assets: 'dist/assets/**',
+      assets: './dist/assets/**',
       ignore: ['node_modules'],
-      filesToDeleteAfterUpload: 'dist/**/*.map',
+      filesToDeleteAfterUpload: './dist/**/*.map',
     },
   })],
 });

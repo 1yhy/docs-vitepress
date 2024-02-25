@@ -9,7 +9,7 @@
     "build": "vitepress build docs && pnpm sentry:sourcemaps",
     "prepare": "husky install",
     "format": "prettier --write .",
-    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org yhy --project sentry-plugin ./dist && sentry-cli sourcemaps upload --org yhy --project sentry-plugin ./dist --release=1.0.0"
+    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org yhy --project sentry-plugin ./dist && sentry-cli sourcemaps upload --org yhy --project sentry-plugin --decompress ./dist --release=1.0.0"
   },
   "repository": {
     "type": "git",
