@@ -30,3 +30,6 @@ package-lock.json
 .DS_Store
 
 # user-specific files
+
+# Sentry Config File
+.env.sentry-build-plugin

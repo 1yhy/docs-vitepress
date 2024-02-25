@@ -212,6 +212,12 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       link: '/other/vscode/develope/chatgpt',
     },
   ],
+  '/other/vitepress/': [
+    {
+      text: 'VitePress集成  Giscus 评论',
+      link: '/other/vitepress/add-comments',
+    },
+  ],
   '/other/linux/': [
     {
       text: '基础知识',

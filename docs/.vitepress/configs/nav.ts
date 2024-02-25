@@ -39,6 +39,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'Vscode', link: '/other/vscode/index' },
       { text: 'cli', link: '/other/cli/alias' },
       { text: 'scrcpy', link: '/other/scrcpy/quick-start' },
+      { text: 'VitePress', link: '/other/vitepress/add-comments' },
     ]
   }
 ]

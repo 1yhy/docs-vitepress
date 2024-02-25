@@ -46,7 +46,10 @@
     ]
   },
   "dependencies": {
+    "@sentry/vite-plugin": "^2.14.2",
+    "@sentry/vue": "^7.102.1",
     "@vercel/analytics": "^1.2.0",
-    "@vercel/speed-insights": "^1.0.10"
+    "@vercel/speed-insights": "^1.0.10",
+    "@yhy2001/sentry-plugin": "^1.0.6"
   }
 }

@@ -1,6 +1,7 @@
 import { h, watch } from 'vue'
 import { useData, EnhanceAppContext } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
+import { SentryPlugin, VueIntegration } from '@yhy2001/sentry-plugin';
 
 import { createMediumZoomProvider } from './composables/useMediumZoom'
 
@@ -54,6 +55,13 @@ export default {
         { immediate: true },
       )
     }
+
+    SentryPlugin
+    .init({
+        dsn: 'https://28f76c767db1b82bba2903d8b72df524@o4506805676015616.ingest.sentry.io/4506806335176704',
+        release: '1.0.0',
+     }, new VueIntegration(app, router))
+    .setUser({id: 1, name: '222'});
   },
 }
 
