@@ -13,18 +13,6 @@ const props = defineProps<{
 const formatTitle = computed(() => {
   return slugify(props.title)
 })
-setTimeout(() => {
-  try {
-    let i = 3,
-      j = 4
-    if (i < j) {
-      throw new Error('eooro')
-    }
-  } catch (error) {
-    console.error('error')
-  }
-  // throw new Error('test')
-}, 2000)
 </script>
 
 <template>

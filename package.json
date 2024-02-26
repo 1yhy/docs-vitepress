@@ -6,10 +6,9 @@
   "private": true,
   "scripts": {
     "dev": "vitepress dev docs --port=8732",
-    "build": "vitepress build docs && pnpm sentry:sourcemaps",
+    "build": "vitepress build docs",
     "prepare": "husky install",
-    "format": "prettier --write .",
-    "sentry:sourcemaps": "sentry-cli sourcemaps inject --org yhy --project sentry-plugin ./dist && sentry-cli sourcemaps upload --org yhy --project sentry-plugin --decompress ./dist --release=1.0.0"
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -47,11 +46,7 @@
     ]
   },
   "dependencies": {
-    "@sentry/cli": "^2.28.6",
-    "@sentry/vite-plugin": "^2.14.2",
-    "@sentry/vue": "^7.102.1",
     "@vercel/analytics": "^1.2.0",
-    "@vercel/speed-insights": "^1.0.10",
-    "@yhy2001/sentry-plugin": "^1.0.6"
+    "@vercel/speed-insights": "^1.0.10"
   }
 }
