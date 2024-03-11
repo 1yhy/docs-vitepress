@@ -32,3 +32,5 @@
 | [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)            | 调试 `Vue.js` 应用程序                                                                                 |
 | [Lighthouse](https://chromewebstore.google.com/detail/lighthouse/blipmdconlkpinefehnmjammfjpmpbjk)                     | 网站性能测评工具                                                                                       |
 | [掘金](https://chromewebstore.google.com/detail/%E7%A8%80%E5%9C%9F%E6%8E%98%E9%87%91/lecdifefmmfjnjjinhaennhdlmcaeeeb) | 在新标签页展示聚合内容，包含前端、Android、iOS、后端、产品、设计六大频道，每个频道内都有一到多个内容源 |
+| [Datalayer Checker](https://chrome.google.com/webstore/detail/ffljdddodmkedhkcjhpmdajhjdbkogke)                        | GA 分析                                                                                                |
+| [Wappalyzer](https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg)      | 分析页面技术栈                                                                                         |

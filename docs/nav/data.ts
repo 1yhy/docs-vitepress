@@ -68,6 +68,12 @@ export const NAV_DATA: NavData[] = [
         title: 'Qwerty Learner',
         desc: '为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件',
         link: 'https://qwerty.fe-mm.com',
+      },
+      {
+        icon: 'https://ssl.gstatic.com/pagespeed/insights/ui/logo/favicon_48.png',
+        title: 'PageSpeed Insights',
+        desc: '页面性能分析',
+        link: 'https://pagespeed.web.dev/',
       }
     ],
   },
@@ -235,6 +241,12 @@ export const NAV_DATA: NavData[] = [
         desc: '一个功能类优先的 CSS 框架',
         link: 'https://www.tailwindcss.cn',
       },
+      {
+        icon: 'https://codeadrian.github.io/clay.css/favicon-32x32.png',
+        title: 'clay.css',
+        desc: '添加黏土形状CSS',
+        link: 'https://codeadrian.github.io/clay.css/',
+      },
     ],
   },
   {
@@ -273,6 +285,11 @@ export const NAV_DATA: NavData[] = [
         icon: '/icons/chatgpt.png',
         title: 'ChatGPT',
         link: 'https://chat.openai.com/chat',
+      },
+      {
+        icon: '/icons/chatgpt.png',
+        title: 'ChatGPT 后台',
+        link: 'https://platform.openai.com/api-keys',
       },
       {
         icon: 'https://xinghuo.xfyun.cn/favicon.ico',
@@ -443,7 +460,7 @@ export const NAV_DATA: NavData[] = [
       {
         icon: 'https://jefferyxzf.github.io/favicon.ico',
         title: 'Jefferyxzf',
-        link: 'https://jefferyxzf.github.io/',
+        link: 'https://webjeffery.github.io/jeffery-blog/',
       },
       {
         icon: 'https://notes.fe-mm.com/logo.png',
@@ -501,6 +518,18 @@ export const NAV_DATA: NavData[] = [
         title: '开往',
         desc: 'Travellings的官方网站',
         link: 'https://www.travellings.cn/',
+      },
+      {
+        icon: 'https://www.travellings.cn/assets/img/mini-logo.svg',
+        title: '博客列表',
+        desc: '开往项目中的个人博客',
+        link: 'https://list.travellings.cn/',
+      },
+      {
+        icon: 'https://avatars.githubusercontent.com/u/5512552?s=48&v=4',
+        title: '中文独立博客列表',
+        desc: 'github项目-中文独立博客列表',
+        link: 'https://github.com/timqian/chinese-independent-blogs',
       }
     ],
   },
@@ -767,6 +796,24 @@ export const NAV_DATA: NavData[] = [
         desc: 'Flutter实战的在线书籍',
         link: 'https://book.flutterchina.club/chapter1/mobile_development_intro.html',
       },
+      {
+        icon: 'https://raw.githubusercontent.com/rydmike/flex_color_scheme_docs/master/docs/images/favicon.png',
+        title: 'FlexColorScheme ',
+        desc: 'FlexColorScheme ',
+        link: 'https://docs.flexcolorscheme.com/',
+      },
+      {
+        icon: 'https://material-foundation.github.io/material-theme-builder/icons/Icon-192.png',
+        title: 'Material Theme Builder',
+        desc: '主题色定制',
+        link: 'https://material-foundation.github.io/material-theme-builder/',
+      },
+      {
+        icon: 'https://m3.material.io/static/assets/m3-favicon.ico',
+        title: 'Material Design',
+        desc: 'Material Design',
+        link: 'https://m3.material.io/',
+      },
     ],
   },
   {
@@ -783,6 +830,23 @@ export const NAV_DATA: NavData[] = [
         title: 'Programming & Web Development Crash Courses - Traversy Media',
         desc: 'Traversy Media的编程和Web开发速成课程',
         link: 'https://www.youtube.com/playlist?list=PLillGF-RfqbYeckUaD1z6nviTp31GLTH8',
+      },
+      {
+        icon: 'https://rxresu.me/icon/dark.svg',
+        title: 'Rx Resume',
+        desc: '创建个人简历',
+        link: 'https://rxresu.me/',
+      },
+      {
+        title: 'Resume Genius',
+        desc: '创建个人简历',
+        link: 'https://resumegenius.co/resume-builder/app/how-to-start',
+      },
+      {
+        icon: 'https://ph-static.imgix.net/ph-favicon-coral.ico',
+        title: 'ProductHunt',
+        desc: '一个产品曝光社区，有很多新的产品和创意产品',
+        link: 'https://www.producthunt.com/',
       },
     ],
   },

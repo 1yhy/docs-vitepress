@@ -9,6 +9,7 @@ export const nav: DefaultTheme.Config['nav'] = [
       { text: 'Vue', link: '/vue/' },
       { text: 'CSS', link: '/css/grid' },
       { text: 'Flutter', link: '/flutter/app/start/splash-and-appIcon' },
+      { text: 'Todo', link: '/todo/2024/' },
       // { text: 'sentry', link: '/sentry/index'},
     ]
   },

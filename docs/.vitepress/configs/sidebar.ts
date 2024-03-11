@@ -176,6 +176,12 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       link: '/flutter/app/common-issues',
     }
   ],
+  '/todo/': [
+    {
+      text: '2024',
+      link: '/todo/2024/'
+    }
+  ],
   '/other/git/': [
     {
       text: 'git常用命令',
