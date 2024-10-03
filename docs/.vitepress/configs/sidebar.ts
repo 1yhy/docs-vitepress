@@ -242,6 +242,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       link: '/other/linux/安装nginx',
     },
     {
+      text: 'centos安装docker',
+      link: '/other/linux/centos安装docker',
+    },
+    {
       text: 'docker安装jenkins',
       link: '/other/linux/docker安装jenkins',
     },
