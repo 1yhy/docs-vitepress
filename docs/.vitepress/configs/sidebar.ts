@@ -249,6 +249,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: 'docker安装jenkins',
       link: '/other/linux/docker安装jenkins',
     },
+    {
+      text: '安装nginx proxy manager',
+      link: '/other/linux/安装nginx-proxy-manager',
+    },
   ],
   // '/sentry/': [
   //   {

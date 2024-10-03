@@ -134,7 +134,7 @@ watch(
 
 监听 VitePress 主题模式改变修改相应的主题，它适应背景颜色变化。
 
-:::tip
+::: tip
 需要注意几点：
 
 Vue 不能在模板中直接使用 `<script />` 标签，所以我们使用 `<component /> `来模拟 `<script />` 标签。
