@@ -242,6 +242,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       link: '/other/linux/安装nginx',
     },
     {
+      text: '配置ssh',
+      link: '/other/linux/配置ssh',
+    },
+    {
       text: 'centos安装docker',
       link: '/other/linux/centos安装docker',
     },
